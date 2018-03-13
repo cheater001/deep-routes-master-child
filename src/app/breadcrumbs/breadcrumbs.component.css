@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  border: solid 1px;
+  padding: 10px;
+}
+
+.breadcrumb:after {
+  content: '-';
+}
+
+.breadcrumb:last-child:after {
+  display: none;
+}
